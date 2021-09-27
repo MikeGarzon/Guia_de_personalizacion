@@ -1,6 +1,5 @@
 ## Guia de personalizacion
 
-
 La informacion de los programas usados en esta guia los encuentran en la siguiente tabla
 
 | Program                             | Name                                                                                                                           |
@@ -66,6 +65,29 @@ set_from_resource $bg i3wm.color8 #282828
 #Con el comando mod+D ejecutas la el buscador de aplicaciones
 bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg" -b
 ```
+
+Una vez ya instalado un gestor de ventanas, un lanzador de aplicaciones y una barra de informacion, ya tienes lo esecnial para poder usar tu PC consumuiendo muy pocos recursos cargando todo tu sistema operativo tomando al rededor de 200MB de RAM. Lo cual puede llegar a ser un salvavidas para maquinas con hardware limitado.
+
+## Para mas placer 
+Es posible personalizar otras partes de tu sistema operativo, con fin de tener una estetica similar en todas tus ventanas, uno de mis temas favoritos y creados por la comunidad es [Gruvbox](https://github.com/morhetz/gruvbox) y todo mi escritorio esta personalizado de acuerdo a el. A continuacion se presenta informacion adicional para cambiar la apariencia a tu gusto, se recomienda un conocimiento mas avanzado a partir de ahora.
+
+Para a;adir el tema a nvim, solo es necesario utilizar tu gestor de pluggins para instalarlo:
+
+```
+Plug 'morhetz/gruvbox'
+...
+colorscheme gruvbox 
+```
+Tambien puedes cambiar el color de la barra de estado
+
+```
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+...
+let g:airline_theme = 'base16_gruvbox_dark_hard'
+let g:gruvbox_contrast_dark = 'hard'
+```
+
 
 #### Polybar 
 
