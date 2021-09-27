@@ -95,6 +95,7 @@ let g:gruvbox_contrast_dark = 'hard'
 ```
 
 #### Polybar 
+![Polybar](https://user-images.githubusercontent.com/55245364/134995245-bc9e8edf-3dff-4b7d-8b7a-a46ad5266687.png)
 
 Polybar esta disponible en AUR, lo puedes conseguir usando tu administrador de paquetes favorito
 ```
