@@ -29,12 +29,9 @@ Instalar i3
 ```
 sudo pacman -S i3-gaps
 ```
-Si se desea tambien puede instalar una barrera de status ligera de la misma familia 
-```
-sudo pacman -S i3status
-```
+Si se desea tambien puede instalar una barrera de status ligera de la misma familia instalando `i3status`
 
-Crear el archivo .xinit (usar el editor de texto que prefiera)
+Configurar el archivo `.xinitrc`, si el archivo no esta creado puede crearlo facilmete con `touch .xinitrc`, el cual va a ser el responsable de lanzar a traves de X el gestor de ventanas que acabamos de instalar.
 ```
-  nvim .xinit
+  exec i3
 ```
