@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Wallpapers/katsushika-hokusai-ukiyo-e-2560\u00d71440.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#241c1c",
+        "foreground": "#f0ded0",
+        "cursor": "#f0ded0"
+    },
+    "colors": {
+        "color0": "#241c1c",
+        "color1": "#D3A16F",
+        "color2": "#787D88",
+        "color3": "#AF9D8B",
+        "color4": "#C9B190",
+        "color5": "#D7B39F",
+        "color6": "#CCC5A2",
+        "color7": "#f0ded0",
+        "color8": "#a89b91",
+        "color9": "#D3A16F",
+        "color10": "#787D88",
+        "color11": "#AF9D8B",
+        "color12": "#C9B190",
+        "color13": "#D7B39F",
+        "color14": "#CCC5A2",
+        "color15": "#f0ded0"
+    }
+}

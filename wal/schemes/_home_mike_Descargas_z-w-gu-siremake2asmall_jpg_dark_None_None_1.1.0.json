@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Descargas/z-w-gu-siremake2asmall.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B070D",
+        "foreground": "#e5cda8",
+        "cursor": "#e5cda8"
+    },
+    "colors": {
+        "color0": "#0B070D",
+        "color1": "#746349",
+        "color2": "#8F5219",
+        "color3": "#A14523",
+        "color4": "#A46529",
+        "color5": "#D4934D",
+        "color6": "#CD9D51",
+        "color7": "#e5cda8",
+        "color8": "#a08f75",
+        "color9": "#746349",
+        "color10": "#8F5219",
+        "color11": "#A14523",
+        "color12": "#A46529",
+        "color13": "#D4934D",
+        "color14": "#CD9D51",
+        "color15": "#e5cda8"
+    }
+}

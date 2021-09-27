@@ -1,0 +1,21 @@
+set $wallpaper /home/mike/gruvbox_coloredChina.png
+
+set $background #121d1f
+set $foreground #f3c187
+
+set $color0 #121d1f
+set $color1 #DC3326
+set $color2 #DE5E28
+set $color3 #F64632
+set $color4 #994A57
+set $color5 #69926F
+set $color6 #BD9F2F
+set $color7 #f3c187
+set $color8 #aa875e
+set $color9 #DC3326
+set $color10 #DE5E28
+set $color11 #F64632
+set $color12 #994A57
+set $color13 #69926F
+set $color14 #BD9F2F
+set $color15 #f3c187

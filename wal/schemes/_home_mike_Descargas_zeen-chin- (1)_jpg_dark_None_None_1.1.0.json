@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Descargas/zeen-chin- (1).jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0d",
+        "foreground": "#9fbcca",
+        "cursor": "#9fbcca"
+    },
+    "colors": {
+        "color0": "#0d0d0d",
+        "color1": "#324750",
+        "color2": "#4C4E4F",
+        "color3": "#676A6D",
+        "color4": "#B43B53",
+        "color5": "#A97A7F",
+        "color6": "#4D7590",
+        "color7": "#9fbcca",
+        "color8": "#6f838d",
+        "color9": "#324750",
+        "color10": "#4C4E4F",
+        "color11": "#676A6D",
+        "color12": "#B43B53",
+        "color13": "#A97A7F",
+        "color14": "#4D7590",
+        "color15": "#9fbcca"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Descargas/wenjun-lin- (1).jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1212",
+        "foreground": "#eec79d",
+        "cursor": "#eec79d"
+    },
+    "colors": {
+        "color0": "#1b1212",
+        "color1": "#71604E",
+        "color2": "#A45B33",
+        "color3": "#917152",
+        "color4": "#6F8A7C",
+        "color5": "#A28A6D",
+        "color6": "#E99952",
+        "color7": "#eec79d",
+        "color8": "#a68b6d",
+        "color9": "#71604E",
+        "color10": "#A45B33",
+        "color11": "#917152",
+        "color12": "#6F8A7C",
+        "color13": "#A28A6D",
+        "color14": "#E99952",
+        "color15": "#eec79d"
+    }
+}

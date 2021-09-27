@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Descargas/z-w-gu-9.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09070a",
+        "foreground": "#c6cabc",
+        "cursor": "#c6cabc"
+    },
+    "colors": {
+        "color0": "#09070a",
+        "color1": "#8A5A2D",
+        "color2": "#847A64",
+        "color3": "#7E826D",
+        "color4": "#8A8C75",
+        "color5": "#A29B71",
+        "color6": "#D5BA5D",
+        "color7": "#c6cabc",
+        "color8": "#8a8d83",
+        "color9": "#8A5A2D",
+        "color10": "#847A64",
+        "color11": "#7E826D",
+        "color12": "#8A8C75",
+        "color13": "#A29B71",
+        "color14": "#D5BA5D",
+        "color15": "#c6cabc"
+    }
+}

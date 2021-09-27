@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Descargas/z-w-gu-canal.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0E14",
+        "foreground": "#cacbca",
+        "cursor": "#cacbca"
+    },
+    "colors": {
+        "color0": "#0B0E14",
+        "color1": "#6C7371",
+        "color2": "#86796F",
+        "color3": "#7A817C",
+        "color4": "#A69C6F",
+        "color5": "#788586",
+        "color6": "#8F9290",
+        "color7": "#cacbca",
+        "color8": "#8d8e8d",
+        "color9": "#6C7371",
+        "color10": "#86796F",
+        "color11": "#7A817C",
+        "color12": "#A69C6F",
+        "color13": "#788586",
+        "color14": "#8F9290",
+        "color15": "#cacbca"
+    }
+}

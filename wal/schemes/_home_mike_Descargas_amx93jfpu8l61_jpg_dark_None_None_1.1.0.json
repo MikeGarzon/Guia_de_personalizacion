@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Descargas/amx93jfpu8l61.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080A13",
+        "foreground": "#87d8e3",
+        "cursor": "#87d8e3"
+    },
+    "colors": {
+        "color0": "#080A13",
+        "color1": "#EA1A25",
+        "color2": "#BE562F",
+        "color3": "#F82548",
+        "color4": "#8D766C",
+        "color5": "#D6AA42",
+        "color6": "#135DAD",
+        "color7": "#87d8e3",
+        "color8": "#5e979e",
+        "color9": "#EA1A25",
+        "color10": "#BE562F",
+        "color11": "#F82548",
+        "color12": "#8D766C",
+        "color13": "#D6AA42",
+        "color14": "#135DAD",
+        "color15": "#87d8e3"
+    }
+}

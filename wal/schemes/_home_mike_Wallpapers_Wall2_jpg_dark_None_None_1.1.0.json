@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Wallpapers/Wall2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c0a",
+        "foreground": "#c2bdae",
+        "cursor": "#c2bdae"
+    },
+    "colors": {
+        "color0": "#0c0c0a",
+        "color1": "#575546",
+        "color2": "#6D6B57",
+        "color3": "#87763B",
+        "color4": "#89765A",
+        "color5": "#748777",
+        "color6": "#AA923E",
+        "color7": "#c2bdae",
+        "color8": "#878479",
+        "color9": "#575546",
+        "color10": "#6D6B57",
+        "color11": "#87763B",
+        "color12": "#89765A",
+        "color13": "#748777",
+        "color14": "#AA923E",
+        "color15": "#c2bdae"
+    }
+}

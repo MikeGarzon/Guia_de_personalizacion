@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/bspwm-dotfiles/wallpaper/gruv.png",
+    "alpha": "100",
+    "special": {
+        "background": "#131512",
+        "foreground": "#9ababb",
+        "cursor": "#9ababb"
+    },
+    "colors": {
+        "color0": "#131512",
+        "color1": "#679A69",
+        "color2": "#98961E",
+        "color3": "#D49721",
+        "color4": "#9B8D75",
+        "color5": "#437E80",
+        "color6": "#B16486",
+        "color7": "#9ababb",
+        "color8": "#6b8282",
+        "color9": "#679A69",
+        "color10": "#98961E",
+        "color11": "#D49721",
+        "color12": "#9B8D75",
+        "color13": "#437E80",
+        "color14": "#B16486",
+        "color15": "#9ababb"
+    }
+}
