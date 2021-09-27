@@ -35,3 +35,6 @@ Configurar el archivo `.xinitrc`, si el archivo no esta creado puede crearlo fac
 ```
   exec i3
 ```
+Con estos pasos ya quedaria montado el arranque para que i3 se inicie al correr el servidor grafico X, solo basta con ejecutar `startx` una vez logueado. Si se desea que al iniciar el equipo se inicie automaticamente el gestor de ventanas, puede usar diferentes formas de logueo a parte de TTY, una opcion excelente opcion  es [LightDM](https://wiki.archlinux.org/title/LightDM), la cual es sencilla y facil de configurar. En esta guia no se explica la configuracion de este puesto que se trata de hacer la instalacion mas liviana, y aunque LightDM es de lo mas livianos, puede a necesitar muchas dependencias.
+
+
