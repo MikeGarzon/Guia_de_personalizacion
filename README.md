@@ -42,9 +42,17 @@ Si se desea que al iniciar el equipo se inicie automaticamente el gestor de vent
 Luego de tener instalado i3, comienza la parte divertida, ya podemos empezar a personalizarlo, la configuracion puede llegar a ser intimidante, pero existe mucha informacion sobre el tema y es facil acostumbrarse.
 
 Para configurar la apariencia, comportamiento, atajos espacios de trabajo se modifica el archivo el archivo `config` dentro de la carpeta `~/.config/i3` de tu directorio home, si no se encuentra, crear la carpeta y el archivo. En este repositorio puedes tomar mi archivo de configuracion con informacion detallada de distintos parametros. 
-Tambien encontraras el archivo de configuracion de `i3status` por si te animas a usarlo, ya que al ser de la misma familia no necesitaras dependecias adicionales teniendo una muy buena sinergia con i3.
+
+Tambien encontraras el archivo de configuracion de [`i3status`](https://github.com/Tazeg/i3status) por si te animas a usarlo, ya que al ser de la misma familia no necesitaras dependecias adicionales teniendo una muy buena sinergia con i3.
+
+Una opcion liviana para poner un fondo de escritorio (y visualizar imagenes) es `feh`, y puede instalarlo usando `sudo pacman -S feh`. Para poner el wallpaper que deseas, usa el siguiente comando.
+```
+feh --bg-center ~/MiWallpaper
+```
 
 #### Dmenu
+
+
 
 #### Polybar 
 
