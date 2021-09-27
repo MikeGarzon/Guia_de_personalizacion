@@ -1,4 +1,4 @@
-### Guia_de_personalizacion
+## Guia de personalizacion
 
 ## Instalación
 
