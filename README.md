@@ -1,25 +1,19 @@
 ## Guia de personalizacion
 
+La informacion de los programas usados en esta guia los encuentran en la siguiente tabla
 
 | Program                             | Name                                                                                                                           |
 | :---                                | :---                                                                                                                           |
-| Linux Distribution                  | [Arch Linux](https://www.archlinux.org/)                                                                                       |
-| Window Manager                      | [bspwm](https://github.com/baskerville/bspwm)                                                                                  |
-| Bar                                 | [polybar](https://github.com/jaagr/polybar)                                                                                    |
-| Program Launcher                    | [rofi](https://github.com/DaveDavenport/rofi)                                                                                  |
+| Distribuicion                       | [Arch Linux](https://www.archlinux.org/)                                                                                       |
+| Gestor de ventanas                     | [i3-gaps](https://github.com/Airblader/i3)                                                                                  |
+| Barra de informacion                                | [polybar](https://github.com/jaagr/polybar)                                                                                    |
+| Lanzador de programas                    | [dmenu](https://github.com/stilvoid/dmenu)                                                                                  |
 | Wallpaper Setter                    | [feh](https://github.com/derf/feh)                                                                                             |
-| Web Browser                         | [Firefox](https://firefox.com)                                                                                                 |
-| Icon theme                          | [Flatery](https://www.pling.com/p/1332404)                                                                                     |
-| Text editors/IDE's and Gtk/Qt theme | [Serenade](https://github.com/b4skyx/serenade)                                                                                 |
-| Code Editor                         | [Nvim](https://neovim.io/)                                                                                                     |
-| Text editors/Terminal font          | [Sarasa](https://github.com/be5invis/Sarasa-Gothic)                                                                            |
+| Navegador web                         | [Firefox](https://firefox.com)                                                                                                 |                                                                                   |
+| Fuente                              | [JetBrains Mono](https://www.jetbrains.com/es-es/lp/mono/)                                                                                 |
+| Editor de codigo                         | [Nvim](https://neovim.io/)                                                                                                     |                                                                          |
 | Shell                               | [zsh](https://www.zsh.org/)                                                                                                    |
-| Terminal Emulator                   | [st](https://st.suckless.org/)                                                                                                 |
-| Document Viewer                     | [Zathura](https://pwmt.org/projects/zathura/)                                                                                  |
-| Music Player                        | [ncmpcpp/mpd](https://github.com/ncmpcpp/ncmpcpp)                                                                              |
-| GTK Theme                           | [Serenade (Oomox Generated)](https://cdn.discordapp.com/attachments/792698625011482677/813491937041448970/serenade.zip)                                                      |
-| Lockscreen                          | [i3lock-color(v2.13c2+)](https://github.com/Raymo111/i3lock-color)                                                                                                                  |
-
+| Emulador de terminal                  | [Alacritty](https://github.com/alacritty/alacritty)                                                                                                 |
 
 ## Instalación
 
