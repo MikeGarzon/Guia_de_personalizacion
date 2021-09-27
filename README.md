@@ -48,8 +48,9 @@ Tambien encontraras el archivo de configuracion de `i3status` por si te animas a
 Una opcion liviana para poner un fondo de escritorio (y visualizar imagenes) es `feh`, y puede instalarlo usando `sudo pacman -S feh`. Para poner el wallpaper que deseas, usa el siguiente comando.
 ```
 feh --bg-center ~/MiWallpaper
-
-#Si quieres poner un wallpaper por defecto, pon esto en tu archivo de configuarcion de i3
+```
+Si quieres poner un wallpaper por defecto, pon esto en tu archivo de configuarcion de i3
+```
 exec --no-startup-id feh --bg-center ~/MiWallpaper
 ```
 
@@ -121,6 +122,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh &
 ---
 #### Menciones especiales
 - [Pywall](https://github.com/dylanaraps/pywal)
+- [Ranger](https://github.com/ranger/ranger)
 ---
 
 
