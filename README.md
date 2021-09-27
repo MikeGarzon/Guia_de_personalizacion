@@ -39,6 +39,10 @@ Con estos pasos ya quedaria montado el arranque para que i3 se inicie al correr 
 
 Si se desea que al iniciar el equipo se inicie automaticamente el gestor de ventanas, puede usar diferentes formas de logueo a parte de TTY, una opcion excelente opcion  es [LightDM](https://wiki.archlinux.org/title/LightDM), la cual es sencilla y facil de configurar. En esta guia no se explica la configuracion de este puesto que se trata de hacer la instalacion mas ligera, y aunque LightDM es de lo mas livianos, puede a necesitar muchas dependencias.
 
+Luego de tener instalado i3, comienza la parte divertida, ya podemos empezar a personalizarlo, la configuracion puede llegar a ser intimidante, pero existe mucha informacion sobre el tema y es facil acostumbrarse.
+
+Para configurar la apariencia, comportamiento, atajos espacios de trabajo se modifica el archivo el archivo `config` dentro de la carpeta `.config/i3` de tu directorio home, si no se encuentra, crear la carpeta y el archivo. En este repositorio puedes tomar mi archivo de configuracion con informacion detallada de distintos parametros.
+
 
 
 
