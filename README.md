@@ -41,9 +41,9 @@ Si se desea que al iniciar el equipo se inicie automaticamente el gestor de vent
 
 Luego de tener instalado i3, comienza la parte divertida, ya podemos empezar a personalizarlo, la configuracion puede llegar a ser intimidante, pero existe mucha informacion sobre el tema y es facil acostumbrarse.
 
-Para configurar la apariencia, comportamiento, atajos espacios de trabajo se modifica el archivo el archivo `config` dentro de la carpeta `~/.config/i3` de tu directorio home, si no se encuentra, crear la carpeta y el archivo. En este repositorio puedes tomar mi archivo de configuracion con informacion detallada de distintos parametros. 
+Para configurar la apariencia, comportamiento, atajos espacios de trabajo se modifica el archivo el archivo `config` dentro de la carpeta `~/.config/i3` de tu directorio home, si no se encuentra, crear la carpeta y el archivo. En este repositorio puedes tomar mi [archivo](https://github.com/MikeGarzon/Guia_de_personalizacion/blob/main/config/i3/config) de configuracion con informacion detallada de distintos parametros. 
 
-Tambien encontraras el archivo de configuracion de `i3status` por si te animas a usarlo, ya que al ser de la misma familia no necesitaras dependecias adicionales teniendo una muy buena sinergia con i3. 
+Tambien encontraras el [archivo](https://github.com/MikeGarzon/Guia_de_personalizacion/blob/main/config/i3status/config) de configuracion de `i3status` por si te animas a usarlo, ya que al ser de la misma familia no necesitaras dependecias adicionales teniendo una muy buena sinergia con i3. 
 
 Una opcion liviana para poner un fondo de escritorio (y visualizar imagenes) es `feh`, y puede instalarlo usando `sudo pacman -S feh`. Para poner el wallpaper que deseas, usa el siguiente comando.
 ```
@@ -100,7 +100,7 @@ Polybar esta disponible en AUR, lo puedes conseguir usando tu administrador de p
 ```
 sudo yay -S polybar
 ```
-Puedes configurarlo creando la carpeta `~/.config/polybar` y archivo de configuracion que se llamara `config`, en el repositorio encontraras un archivo del cual puedes guiarte.
+Puedes configurarlo creando la carpeta `~/.config/polybar` y archivo de configuracion que se llamara `config`, en el repositorio encontraras un [archivo](https://github.com/MikeGarzon/Guia_de_personalizacion/blob/main/config/polybar/config) del cual puedes guiarte.
 
 Para ejecutar polybar es necesario crear un script `launch.sh` el cual sera que despliega la barra en la pantalla 
 ```
@@ -123,7 +123,7 @@ Alacritty es un emulador de terminal OpenGL, rapido y facil de configurar, para 
 ```
 sudo pacman -S Alacritty
 ```
-Puedes configurarlo creando la carpeta `~/.config/alacritty` y archivo de configuracion llamado `alacritty.yml`, en el repositorio encontraras un archivo del cual puedes guiarte donde defino los colores de la terminal y su fuente.
+Puedes configurarlo creando la carpeta `~/.config/alacritty` y archivo de configuracion llamado `alacritty.yml`, en el repositorio encontraras un [archivo](https://github.com/MikeGarzon/Guia_de_personalizacion/blob/main/config/alacritty/alacritty.yml) del cual puedes guiarte donde defino los colores de la terminal y su fuente.
 
 Para ejecutarlo siempre que preciones mod+enter puedes agregar este comando en tu archivo de configuracion i3.
 ```
