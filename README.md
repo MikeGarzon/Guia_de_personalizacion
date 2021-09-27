@@ -48,6 +48,9 @@ Tambien encontraras el archivo de configuracion de `i3status` por si te animas a
 Una opcion liviana para poner un fondo de escritorio (y visualizar imagenes) es `feh`, y puede instalarlo usando `sudo pacman -S feh`. Para poner el wallpaper que deseas, usa el siguiente comando.
 ```
 feh --bg-center ~/MiWallpaper
+
+#Si quieres poner un wallpaper por defecto, pon esto en tu archivo de configuarcion de i3
+exec --no-startup-id feh --bg-center ~/MiWallpaper
 ```
 
 #### Dmenu
@@ -69,10 +72,12 @@ bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg" -b
 Una vez ya instalado un gestor de ventanas, un lanzador de aplicaciones y una barra de informacion, ya tienes lo esecnial para poder usar tu PC consumuiendo muy pocos recursos cargando todo tu sistema operativo tomando al rededor de 200MB de RAM. Lo cual puede llegar a ser un salvavidas para maquinas con hardware limitado.
 
 ## Para mas placer 
-Es posible personalizar otras partes de tu sistema operativo, con fin de tener una estetica similar en todas tus ventanas, uno de mis temas favoritos y creados por la comunidad es [Gruvbox](https://github.com/morhetz/gruvbox) y todo mi escritorio esta personalizado de acuerdo a el. A continuacion se presenta informacion adicional para cambiar la apariencia a tu gusto, se recomienda un conocimiento mas avanzado a partir de ahora.
+Es posible personalizar otras partes de tu sistema operativo, con fin de tener una estetica similar en todas tus ventanas, uno de mis temas favoritos, creados por la comunidad es [Gruvbox](https://github.com/morhetz/gruvbox) y todo mi escritorio esta personalizado de su esquema de colores. A continuacion se presenta informacion adicional para cambiar la apariencia a tu gusto, se recomienda un conocimiento mas avanzado a partir de ahora.
 
-Para a;adir el tema a nvim, solo es necesario utilizar tu gestor de pluggins para instalarlo:
 
+
+#### Nvim  
+Para añadir el tema a nvim, solo es necesario utilizar tu gestor de pluggins para instalarlo:
 ```
 Plug 'morhetz/gruvbox'
 ...
@@ -88,10 +93,35 @@ let g:airline_theme = 'base16_gruvbox_dark_hard'
 let g:gruvbox_contrast_dark = 'hard'
 ```
 
-
 #### Polybar 
 
+Polybar esta disponible en AUR, lo puedes conseguir usando tu administrador de paquetes favorito
+```
+sudo yay -S polybar
+```
+Puedes configurarlo creando la carpeta `~/.config/polybar` y archivo de configuracion se llamara `config`, en el repositorio encontraras un archivo del cual puedes guiarte.
 
+Para ejecutar polybar es necesario crear un script `launch.sh` el cual sera que despliega la barra en la pantalla 
+```
+#!/usr/bin/env bash
+
+# Primero eliminar si tienes alguna abierta
+killall -q polybar
+
+# Iniciando la barra (example) tener en cuenta que debe tener el mismo nombre que el archivo config
+echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
+polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
+```
+
+Y para que se ejecute cada vez que inicies i3 debes agregar la siguiente linea al final del archivo de configuracion de i3
+```
+exec_always --no-startup-id ~/.config/polybar/launch.sh &
+```
+
+---
+#### Menciones especiales
+- [Pywall](https://github.com/dylanaraps/pywal)
+---
 
 
 
