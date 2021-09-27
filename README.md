@@ -1,4 +1,5 @@
 ## Guia de personalizacion
+![Desktop](https://user-images.githubusercontent.com/55245364/134988024-0e99a80b-9b8e-429b-a56d-f1e59efc6036.png)
 
 La informacion de los programas usados en esta guia los encuentran en la siguiente tabla
 
@@ -67,6 +68,7 @@ bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg" -b
 ```
 
 #### Polybar 
+
 
 
 
