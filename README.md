@@ -129,6 +129,17 @@ Para ejecutarlo siempre que preciones mod+enter puedes agregar este comando en t
 ```
 bindsym $mod+Return exec /usr/bin/alacritty
 ```
+
+#### Preview 
+
+
+![home](https://user-images.githubusercontent.com/55245364/134998027-3918836c-1fd4-468b-92d2-d071ec85ebfd.png)
+
+![configs](https://user-images.githubusercontent.com/55245364/134998033-f4170a4f-eeea-466d-b353-42c14e4feb65.png)
+
+![conbfigs2](https://user-images.githubusercontent.com/55245364/134998041-b937a82e-665f-4363-bddc-587fa5b5ac08.png)
+
+
 ---
 #### Menciones especiales
 - [Pywall](https://github.com/dylanaraps/pywal)
@@ -137,10 +148,4 @@ bindsym $mod+Return exec /usr/bin/alacritty
 - [Scrot](https://github.com/dreamer/scrot)
 ---
 
-#### Preview 
-
-
-![home](https://user-images.githubusercontent.com/55245364/134998027-3918836c-1fd4-468b-92d2-d071ec85ebfd.png)
-![configs](https://user-images.githubusercontent.com/55245364/134998033-f4170a4f-eeea-466d-b353-42c14e4feb65.png)
-![conbfigs2](https://user-images.githubusercontent.com/55245364/134998041-b937a82e-665f-4363-bddc-587fa5b5ac08.png)
 
