@@ -25,12 +25,12 @@ Instalar Xorg
 ```
 sudo pacman -S xorg-server
 ```
-Instalar i3
+
+Instalar i3, si se desea tambien puede instalar una barrera de status ligera de la misma familia instalando `i3status`
+
 ```
 sudo pacman -S i3-gaps
 ```
-Si se desea tambien puede instalar una barrera de status ligera de la misma familia instalando `i3status`
-
 Configurar el archivo `.xinitrc`, si el archivo no esta creado puede crearlo facilmete con `touch .xinitrc`, el cual va a ser el responsable de lanzar a traves de X el gestor de ventanas que acabamos de instalar.
 ```
   exec i3
