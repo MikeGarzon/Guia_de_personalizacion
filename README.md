@@ -100,7 +100,7 @@ Polybar esta disponible en AUR, lo puedes conseguir usando tu administrador de p
 ```
 sudo yay -S polybar
 ```
-Puedes configurarlo creando la carpeta `~/.config/polybar` y archivo de configuracion se llamara `config`, en el repositorio encontraras un archivo del cual puedes guiarte.
+Puedes configurarlo creando la carpeta `~/.config/polybar` y archivo de configuracion que se llamara `config`, en el repositorio encontraras un archivo del cual puedes guiarte.
 
 Para ejecutar polybar es necesario crear un script `launch.sh` el cual sera que despliega la barra en la pantalla 
 ```
@@ -118,11 +118,23 @@ Y para que se ejecute cada vez que inicies i3 debes agregar la siguiente linea a
 ```
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
 ```
+#### Alacritty 
+Alacritty es un emulador de terminal OpenGL, rapido y facil de configurar, para instalarlo: ```
+```
+sudo pacman -S Alacritty
+```
+Puedes configurarlo creando la carpeta `~/.config/alacritty` y archivo de configuracion llamado `alacritty.yml`, en el repositorio encontraras un archivo del cual puedes guiarte donde defino los colores de la terminal y su fuente.
 
+Para ejecutarlo siempre que preciones mod+enter puedes agregar este comando en tu archivo de configuracion i3.
+```
+bindsym $mod+Return exec /usr/bin/alacritty
+```
 ---
 #### Menciones especiales
 - [Pywall](https://github.com/dylanaraps/pywal)
 - [Ranger](https://github.com/ranger/ranger)
+- [Tema Gruvbox para firefox](https://addons.mozilla.org/es/firefox/addon/humble-gruvbox/)
+- [Scrot](https://github.com/dreamer/scrot)
 ---
 
 
