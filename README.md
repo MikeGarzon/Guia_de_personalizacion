@@ -52,7 +52,19 @@ feh --bg-center ~/MiWallpaper
 
 #### Dmenu
 
+Dmenu es el lanzador de aplicaciones mas liviano que puedes encontrar, su instalacion y configuracion es muy sencilla, inserta el siguiente comando en tu consola
+```
+sudo pacman -S dmenu
+```
+Y en tu archivo de configuracion de i3, agrega lo suiguiente 
+```
+#Con lo siguiente nombrar tus colores en una variable
+set_from_resource $fg i3wm.color0 #689d6a
+set_from_resource $bg i3wm.color8 #282828
 
+#Con el comando mod+D ejecutas la el buscador de aplicaciones
+bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg" -b
+```
 
 #### Polybar 
 
