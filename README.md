@@ -95,7 +95,6 @@ let g:gruvbox_contrast_dark = 'hard'
 ```
 
 #### Polybar 
-![Polybar](https://user-images.githubusercontent.com/55245364/134995245-bc9e8edf-3dff-4b7d-8b7a-a46ad5266687.png)
 
 Polybar esta disponible en AUR, lo puedes conseguir usando tu administrador de paquetes favorito
 ```
@@ -138,6 +137,10 @@ bindsym $mod+Return exec /usr/bin/alacritty
 - [Scrot](https://github.com/dreamer/scrot)
 ---
 
+#### Preview 
 
 
+![home](https://user-images.githubusercontent.com/55245364/134998027-3918836c-1fd4-468b-92d2-d071ec85ebfd.png)
+![configs](https://user-images.githubusercontent.com/55245364/134998033-f4170a4f-eeea-466d-b353-42c14e4feb65.png)
+![conbfigs2](https://user-images.githubusercontent.com/55245364/134998041-b937a82e-665f-4363-bddc-587fa5b5ac08.png)
 
